@@ -13,7 +13,9 @@ print(ret_int8(27))
 print(ret_uint64(1124))
 print(ret_int64(-1124))
 
-// This crashes the compiler: Version 7.0 beta 6 (7A192o)
+// This crashes the compiler: 
+//   Version 7.0 beta 6 (7A192o)
+//   Version 7.1 beta (7B60)
 //let myCallback : @convention(c) (i: Int) -> Int = {
 let myCallback : @convention(c) (Int) -> Int = {
     (i) -> Int in
