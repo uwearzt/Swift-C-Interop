@@ -1,2 +1,2 @@
 # Swift-C-Interop
-Test Swift &lt;-> Interoperability
+Test Swift &lt;-&gt; Interoperability

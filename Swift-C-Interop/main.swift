@@ -1,0 +1,24 @@
+// ------------------------------------------------------------------------------
+// Copyright by Uwe Arzt mailto:mail@uwe-arzt.de, https://uwe-arzt.de
+// under BSD License, see https://uwe-arzt.de/bsd-license
+// ------------------------------------------------------------------------------
+// Just some sample calls, the real demo is in the Unit Test cases
+// ------------------------------------------------------------------------------
+import Foundation
+
+print("Swift-C-Interop")
+
+print(ret_uint8(13))
+print(ret_int8(27))
+print(ret_uint64(1124))
+print(ret_int64(-1124))
+
+// This crashes the compiler: Version 7.0 beta 6 (7A192o)
+//let myCallback : @convention(c) (i: Int) -> Int = {
+let myCallback : @convention(c) (Int) -> Int = {
+    (i) -> Int in
+    return i * 2
+}
+
+let x = call(myCallback, i: 5)
+print (x)

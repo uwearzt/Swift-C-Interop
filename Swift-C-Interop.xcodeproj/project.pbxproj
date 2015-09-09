@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C66C0C011B9F3E7000BA9656 /* Swift_C_InteropTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C0C001B9F3E7000BA9656 /* Swift_C_InteropTest.swift */; };
+		C66C0C061B9F443100BA9656 /* cfunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD731B9DFD7000761632 /* cfunctions.c */; };
+		C66C0C071B9F443100BA9656 /* cfunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD761B9E010A00761632 /* cfunctions.swift */; };
+		C66C0C081B9F443100BA9656 /* cfunctions.h in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD741B9DFD7000761632 /* cfunctions.h */; };
+		C6A2CD6D1B9DFD5600761632 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD6C1B9DFD5600761632 /* main.swift */; };
+		C6A2CD751B9DFD7000761632 /* cfunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD731B9DFD7000761632 /* cfunctions.c */; settings = {ASSET_TAGS = (); }; };
+		C6A2CD771B9E010A00761632 /* cfunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD761B9E010A00761632 /* cfunctions.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6A2CD671B9DFD5600761632 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C66C0BFE1B9F3E7000BA9656 /* Swift-C-InteropTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-C-InteropTest.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66C0C001B9F3E7000BA9656 /* Swift_C_InteropTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_C_InteropTest.swift; sourceTree = "<group>"; };
+		C66C0C021B9F3E7000BA9656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A2CD691B9DFD5600761632 /* Swift-C-Interop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-C-Interop"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A2CD6C1B9DFD5600761632 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C6A2CD731B9DFD7000761632 /* cfunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cfunctions.c; sourceTree = "<group>"; };
+		C6A2CD741B9DFD7000761632 /* cfunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cfunctions.h; sourceTree = "<group>"; };
+		C6A2CD761B9E010A00761632 /* cfunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cfunctions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C66C0BFB1B9F3E7000BA9656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A2CD661B9DFD5600761632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C66C0BFF1B9F3E7000BA9656 /* Swift-C-InteropTest */ = {
+			isa = PBXGroup;
+			children = (
+				C66C0C001B9F3E7000BA9656 /* Swift_C_InteropTest.swift */,
+				C66C0C021B9F3E7000BA9656 /* Info.plist */,
+			);
+			path = "Swift-C-InteropTest";
+			sourceTree = "<group>";
+		};
+		C6A2CD601B9DFD5600761632 = {
+			isa = PBXGroup;
+			children = (
+				C6A2CD6B1B9DFD5600761632 /* Swift-C-Interop */,
+				C66C0BFF1B9F3E7000BA9656 /* Swift-C-InteropTest */,
+				C6A2CD6A1B9DFD5600761632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6A2CD6A1B9DFD5600761632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6A2CD691B9DFD5600761632 /* Swift-C-Interop */,
+				C66C0BFE1B9F3E7000BA9656 /* Swift-C-InteropTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A2CD6B1B9DFD5600761632 /* Swift-C-Interop */ = {
+			isa = PBXGroup;
+			children = (
+				C6A2CD6C1B9DFD5600761632 /* main.swift */,
+				C6A2CD731B9DFD7000761632 /* cfunctions.c */,
+				C6A2CD761B9E010A00761632 /* cfunctions.swift */,
+				C6A2CD741B9DFD7000761632 /* cfunctions.h */,
+			);
+			path = "Swift-C-Interop";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C66C0BFD1B9F3E7000BA9656 /* Swift-C-InteropTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66C0C051B9F3E7000BA9656 /* Build configuration list for PBXNativeTarget "Swift-C-InteropTest" */;
+			buildPhases = (
+				C66C0BFA1B9F3E7000BA9656 /* Sources */,
+				C66C0BFB1B9F3E7000BA9656 /* Frameworks */,
+				C66C0BFC1B9F3E7000BA9656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-C-InteropTest";
+			productName = "Swift-C-InteropTest";
+			productReference = C66C0BFE1B9F3E7000BA9656 /* Swift-C-InteropTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6A2CD681B9DFD5600761632 /* Swift-C-Interop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A2CD701B9DFD5600761632 /* Build configuration list for PBXNativeTarget "Swift-C-Interop" */;
+			buildPhases = (
+				C6A2CD651B9DFD5600761632 /* Sources */,
+				C6A2CD661B9DFD5600761632 /* Frameworks */,
+				C6A2CD671B9DFD5600761632 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-C-Interop";
+			productName = "Swift-C-Interop";
+			productReference = C6A2CD691B9DFD5600761632 /* Swift-C-Interop */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6A2CD611B9DFD5600761632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Uwe Arzt";
+				TargetAttributes = {
+					C66C0BFD1B9F3E7000BA9656 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C6A2CD681B9DFD5600761632 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = C6A2CD641B9DFD5600761632 /* Build configuration list for PBXProject "Swift-C-Interop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6A2CD601B9DFD5600761632;
+			productRefGroup = C6A2CD6A1B9DFD5600761632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6A2CD681B9DFD5600761632 /* Swift-C-Interop */,
+				C66C0BFD1B9F3E7000BA9656 /* Swift-C-InteropTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C66C0BFC1B9F3E7000BA9656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C66C0BFA1B9F3E7000BA9656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66C0C061B9F443100BA9656 /* cfunctions.c in Sources */,
+				C66C0C071B9F443100BA9656 /* cfunctions.swift in Sources */,
+				C66C0C081B9F443100BA9656 /* cfunctions.h in Sources */,
+				C66C0C011B9F3E7000BA9656 /* Swift_C_InteropTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A2CD651B9DFD5600761632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A2CD6D1B9DFD5600761632 /* main.swift in Sources */,
+				C6A2CD751B9DFD7000761632 /* cfunctions.c in Sources */,
+				C6A2CD771B9E010A00761632 /* cfunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C66C0C031B9F3E7000BA9656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift-C-InteropTest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.uwe-arzt.Swift-C-InteropTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C66C0C041B9F3E7000BA9656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift-C-InteropTest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.uwe-arzt.Swift-C-InteropTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6A2CD6E1B9DFD5600761632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6A2CD6F1B9DFD5600761632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6A2CD711B9DFD5600761632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6A2CD721B9DFD5600761632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C66C0C051B9F3E7000BA9656 /* Build configuration list for PBXNativeTarget "Swift-C-InteropTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66C0C031B9F3E7000BA9656 /* Debug */,
+				C66C0C041B9F3E7000BA9656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6A2CD641B9DFD5600761632 /* Build configuration list for PBXProject "Swift-C-Interop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A2CD6E1B9DFD5600761632 /* Debug */,
+				C6A2CD6F1B9DFD5600761632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A2CD701B9DFD5600761632 /* Build configuration list for PBXNativeTarget "Swift-C-Interop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A2CD711B9DFD5600761632 /* Debug */,
+				C6A2CD721B9DFD5600761632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6A2CD611B9DFD5600761632 /* Project object */;
+}
