@@ -17,6 +17,7 @@ print(ret_int64(-1124))
 //   Version 7.0 beta 6 (7A192o)
 //   Version 7.0 (7A220)
 //   Version 7.1 beta (7B60)
+//   Version 7.1 beta (7B75)
 //let myCallback : @convention(c) (i: Int) -> Int = {
 // works
 let myCallback : @convention(c) (Int) -> Int = {
