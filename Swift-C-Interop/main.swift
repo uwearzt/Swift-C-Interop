@@ -24,9 +24,11 @@ print(ret_int64(-1124))
 //   Version 7.2 beta (7C62)
 //   Version 7.2 (7C68)
 //   Version 7.2.1 (7C1002)
-//let myCallback : @convention(c) (i: Int) -> Int = {
+// fixed with
+//   Version 7.3 beta 3 (7D141l)
+let myCallback : @convention(c) (i: Int) -> Int = {
 // works
-let myCallback : @convention(c) (Int) -> Int = {
+//let myCallback : @convention(c) (Int) -> Int = {
     (i) -> Int in
     return i * 2
 }
