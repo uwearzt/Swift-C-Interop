@@ -1,0 +1,8 @@
+language: objective-c
+osx_image: xcode7.3
+before_install:
+  - brew update
+  - brew outdated xctool || brew upgrade xctool
+install:
+script:
+  - xctool -project Swift-C-Interop.xcodeproj -scheme Swift-C-Interop build test
