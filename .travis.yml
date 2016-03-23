@@ -5,4 +5,4 @@ before_install:
   - brew outdated xctool || brew upgrade xctool
 install:
 script:
-  - xctool -project Swift-C-Interop/Swift-C-Interop.xcodeproj -scheme Swift-C-Interop build test
+  - xctool -project Swift-C-Interop.xcodeproj -scheme Swift-C-Interop build test
