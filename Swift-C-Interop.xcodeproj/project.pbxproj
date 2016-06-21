@@ -12,8 +12,8 @@
 		C66C0C071B9F443100BA9656 /* cfunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD761B9E010A00761632 /* cfunctions.swift */; };
 		C66C0C081B9F443100BA9656 /* cfunctions.h in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD741B9DFD7000761632 /* cfunctions.h */; };
 		C6A2CD6D1B9DFD5600761632 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD6C1B9DFD5600761632 /* main.swift */; };
-		C6A2CD751B9DFD7000761632 /* cfunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD731B9DFD7000761632 /* cfunctions.c */; settings = {ASSET_TAGS = (); }; };
-		C6A2CD771B9E010A00761632 /* cfunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD761B9E010A00761632 /* cfunctions.swift */; settings = {ASSET_TAGS = (); }; };
+		C6A2CD751B9DFD7000761632 /* cfunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD731B9DFD7000761632 /* cfunctions.c */; };
+		C6A2CD771B9E010A00761632 /* cfunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2CD761B9E010A00761632 /* cfunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -139,14 +139,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Uwe Arzt";
 				TargetAttributes = {
 					C66C0BFD1B9F3E7000BA9656 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 					C6A2CD681B9DFD5600761632 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -211,6 +213,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.uwe-arzt.Swift-C-InteropTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -222,6 +225,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.uwe-arzt.Swift-C-InteropTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -310,6 +315,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -319,6 +325,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -332,6 +340,7 @@
 				C66C0C041B9F3E7000BA9656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6A2CD641B9DFD5600761632 /* Build configuration list for PBXProject "Swift-C-Interop" */ = {
 			isa = XCConfigurationList;

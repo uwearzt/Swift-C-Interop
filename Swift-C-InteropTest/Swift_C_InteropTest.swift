@@ -26,7 +26,7 @@ class Swift_C_InteropTest: XCTestCase {
     
     func testPointerTypes() {
         let str = "old"
-        XCTAssertEqual(String(UTF8String: ret_buf(str, len: str.utf8.count)), str)
+        XCTAssertEqual(String(validatingUTF8: ret_buf(str, len: str.utf8.count)), str)
     }
     
     func testEnumTypes() {
